@@ -1,0 +1,28 @@
+{
+  "name": "collabmart",
+  "version": "1.0.0",
+  "description": "it as a mix of Amazon + Slack + Trello with AI.",
+  "keywords": [
+    "CollabMart"
+  ],
+  "homepage": "https://github.com/OmarWaled8008/CollabMart#readme",
+  "bugs": {
+    "url": "https://github.com/OmarWaled8008/CollabMart/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarWaled8008/CollabMart.git"
+  },
+  "license": "ISC",
+  "author": "omar",
+  "type": "module",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon src/server",
+    "start": "node src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
